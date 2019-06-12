@@ -13,6 +13,6 @@ const selectingDrivers = [
 
 const createFareMultiplier = function(num) {
   return function (fare) {
-    fare * num
+    return fare * num
   }
 }
